@@ -1,0 +1,106 @@
+         357615 function calls (341220 primitive calls) in 128.442 seconds
+
+   Ordered by: cumulative time
+   List reduced from 140 to 100 due to restriction <100>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.001    0.001  128.442  128.442 {built-in method builtins.exec}
+        1    0.000    0.000  128.441  128.441 <string>:3(<module>)
+        1    0.000    0.000  128.441  128.441 <string>:3(main)
+        1    0.006    0.006  128.438  128.438 algorithms.py:85(eaSimple)
+      101    0.000    0.000  128.237    1.270 pool.py:261(map)
+      101    0.000    0.000  128.231    1.270 pool.py:637(get)
+      101    0.000    0.000  128.231    1.270 pool.py:634(wait)
+      101    0.000    0.000  128.230    1.270 threading.py:533(wait)
+      101    0.001    0.000  128.230    1.270 threading.py:263(wait)
+      808  128.229    0.159  128.229    0.159 {method 'acquire' of '_thread.lock' objects}
+      100    0.004    0.000    0.101    0.001 algorithms.py:33(varAnd)
+      100    0.002    0.000    0.082    0.001 algorithms.py:68(<listcomp>)
+16064/4016    0.025    0.000    0.081    0.000 copy.py:132(deepcopy)
+     4016    0.010    0.000    0.067    0.000 creator.py:52(__deepcopy__)
+     4016    0.006    0.000    0.046    0.000 copy.py:236(_deepcopy_dict)
+      100    0.004    0.000    0.039    0.000 selection.py:51(selTournament)
+      101    0.002    0.000    0.026    0.000 support.py:198(compile)
+     4000    0.003    0.000    0.025    0.000 selection.py:12(selRandom)
+     4000    0.004    0.000    0.022    0.000 selection.py:24(<listcomp>)
+    12000    0.006    0.000    0.019    0.000 random.py:253(choice)
+     4016    0.004    0.000    0.018    0.000 base.py:247(__deepcopy__)
+4096/4056    0.005    0.000    0.015    0.000 creator.py:160(initType)
+      768    0.008    0.000    0.013    0.000 <ipython-input-24-f570e7b9e681>:92(mutGaussian)
+    12000    0.008    0.000    0.012    0.000 random.py:223(_randbelow)
+      101    0.004    0.000    0.011    0.000 support.py:511(update)
+    12048    0.008    0.000    0.011    0.000 copy.py:252(_keep_alive)
+     7411    0.004    0.000    0.010    0.000 {built-in method builtins.isinstance}
+     4611    0.006    0.000    0.010    0.000 {built-in method builtins.max}
+     4056    0.003    0.000    0.010    0.000 base.py:168(__init__)
+      101    0.001    0.000    0.008    0.000 fromnumeric.py:2960(std)
+      101    0.001    0.000    0.008    0.000 {built-in method builtins.print}
+      101    0.001    0.000    0.008    0.000 _methods.py:133(_std)
+      202    0.001    0.000    0.007    0.000 iostream.py:366(write)
+    12040    0.004    0.000    0.007    0.000 base.py:229(__gt__)
+     5592    0.004    0.000    0.007    0.000 abc.py:180(__instancecheck__)
+      101    0.003    0.000    0.007    0.000 _methods.py:86(_var)
+      101    0.001    0.000    0.006    0.000 fromnumeric.py:2854(mean)
+     4141    0.001    0.000    0.006    0.000 support.py:204(<genexpr>)
+      303    0.001    0.000    0.006    0.000 iostream.py:195(schedule)
+      101    0.000    0.000    0.005    0.000 support.py:377(stream)
+      101    0.001    0.000    0.005    0.000 _methods.py:53(_mean)
+      101    0.001    0.000    0.005    0.000 pool.py:368(_map_async)
+      101    0.000    0.000    0.005    0.000 support.py:479(__str__)
+      419    0.005    0.000    0.005    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+    32633    0.005    0.000    0.005    0.000 {method 'get' of 'dict' objects}
+      101    0.002    0.000    0.005    0.000 support.py:423(__txt__)
+     4040    0.001    0.000    0.005    0.000 <string>:14(<lambda>)
+30855/26668    0.004    0.000    0.005    0.000 {built-in method builtins.len}
+      388    0.004    0.000    0.004    0.000 {built-in method numpy.core.multiarray.array}
+      303    0.000    0.000    0.004    0.000 numeric.py:495(asanyarray)
+      303    0.004    0.000    0.004    0.000 socket.py:333(send)
+    36144    0.003    0.000    0.003    0.000 {built-in method builtins.id}
+     4040    0.003    0.000    0.003    0.000 base.py:180(getValues)
+    12040    0.003    0.000    0.003    0.000 base.py:235(__le__)
+      101    0.001    0.000    0.003    0.000 fromnumeric.py:2323(amin)
+     7128    0.003    0.000    0.003    0.000 _weakrefset.py:70(__contains__)
+     2066    0.003    0.000    0.003    0.000 base.py:183(setValues)
+    19289    0.003    0.000    0.003    0.000 {method 'getrandbits' of '_random.Random' objects}
+      100    0.001    0.000    0.003    0.000 algorithms.py:171(<listcomp>)
+      101    0.000    0.000    0.002    0.000 _methods.py:28(_amin)
+     41/1    0.000    0.000    0.002    0.002 init.py:3(initRepeat)
+   121/41    0.000    0.000    0.002    0.000 init.py:23(<genexpr>)
+      101    0.000    0.000    0.002    0.000 pool.py:663(__init__)
+    12747    0.002    0.000    0.002    0.000 {method 'append' of 'list' objects}
+      101    0.000    0.000    0.002    0.000 pool.py:619(__init__)
+      101    0.001    0.000    0.002    0.000 queue.py:115(put)
+      607    0.002    0.000    0.002    0.000 {method 'format' of 'str' objects}
+     8032    0.002    0.000    0.002    0.000 {built-in method builtins.getattr}
+     8436    0.001    0.000    0.001    0.000 {built-in method builtins.issubclass}
+      101    0.000    0.000    0.001    0.000 threading.py:498(__init__)
+     4040    0.001    0.000    0.001    0.000 base.py:221(valid)
+     4187    0.001    0.000    0.001    0.000 support.py:569(__len__)
+      202    0.000    0.000    0.001    0.000 iostream.py:313(_schedule_flush)
+      317    0.001    0.000    0.001    0.000 random.py:571(gauss)
+    12000    0.001    0.000    0.001    0.000 {method 'bit_length' of 'int' objects}
+     8415    0.001    0.000    0.001    0.000 {method 'items' of 'dict' objects}
+      101    0.001    0.000    0.001    0.000 threading.py:215(__init__)
+     4016    0.001    0.000    0.001    0.000 {method 'update' of 'dict' objects}
+      303    0.000    0.000    0.001    0.000 threading.py:1104(is_alive)
+       40    0.000    0.000    0.001    0.000 creator.py:61(__new__)
+      101    0.000    0.000    0.001    0.000 threading.py:334(notify)
+       16    0.000    0.000    0.001    0.000 support.py:539(insert)
+      202    0.001    0.000    0.001    0.000 _methods.py:43(_count_reduce_items)
+     7542    0.001    0.000    0.001    0.000 {method 'random' of '_random.Random' objects}
+       15    0.000    0.000    0.001    0.000 numeric.py:2358(array_equal)
+      101    0.000    0.000    0.001    0.000 support.py:332(record)
+     4040    0.001    0.000    0.001    0.000 support.py:572(__getitem__)
+      202    0.000    0.000    0.001    0.000 {method 'join' of 'str' objects}
+     2330    0.001    0.000    0.001    0.000 base.py:195(delValues)
+      202    0.000    0.000    0.000    0.000 iostream.py:300(_is_master_process)
+     4016    0.000    0.000    0.000    0.000 copy.py:190(_deepcopy_atomic)
+      303    0.000    0.000    0.000    0.000 threading.py:1062(_wait_for_tstate_lock)
+      202    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+      606    0.000    0.000    0.000    0.000 support.py:474(<genexpr>)
+      303    0.000    0.000    0.000    0.000 iostream.py:93(_event_pipe)
+      101    0.000    0.000    0.000    0.000 support.py:475(<listcomp>)
+      159    0.000    0.000    0.000    0.000 {built-in method math.log}
+      202    0.000    0.000    0.000    0.000 {built-in method posix.getpid}
+      404    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+      101    0.000    0.000    0.000    0.000 pool.py:627(ready)
